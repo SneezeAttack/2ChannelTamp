@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 15
+
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2ChannelTamp - VST3", "2ChannelTamp_VST3.vcxproj", "{AE97CD80-3288-5103-99CE-A0342719689E}"
+	ProjectSection(ProjectDependencies) = postProject
+		{379537EE-5205-A4B5-254C-85FF9F470557} = {379537EE-5205-A4B5-254C-85FF9F470557}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2ChannelTamp - Shared Code", "2ChannelTamp_SharedCode.vcxproj", "{379537EE-5205-A4B5-254C-85FF9F470557}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AE97CD80-3288-5103-99CE-A0342719689E}.Debug|x64.ActiveCfg = Debug|x64
+		{AE97CD80-3288-5103-99CE-A0342719689E}.Debug|x64.Build.0 = Debug|x64
+		{AE97CD80-3288-5103-99CE-A0342719689E}.Release|x64.ActiveCfg = Release|x64
+		{AE97CD80-3288-5103-99CE-A0342719689E}.Release|x64.Build.0 = Release|x64
+		{379537EE-5205-A4B5-254C-85FF9F470557}.Debug|x64.ActiveCfg = Debug|x64
+		{379537EE-5205-A4B5-254C-85FF9F470557}.Debug|x64.Build.0 = Debug|x64
+		{379537EE-5205-A4B5-254C-85FF9F470557}.Release|x64.ActiveCfg = Release|x64
+		{379537EE-5205-A4B5-254C-85FF9F470557}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

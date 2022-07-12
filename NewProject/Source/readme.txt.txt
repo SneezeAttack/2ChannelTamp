@@ -1,0 +1,1 @@
+An audio plugin that converts stereo to mono, but allows for some manipulation of the two separate channels before converting to mono.
